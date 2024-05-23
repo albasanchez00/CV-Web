@@ -84,7 +84,7 @@ body {
 }
 
 .dropdown-content {
-    
+    display: none;
     position: absolute;
     background-color: #292929   ;
     min-width: 160px;
@@ -100,7 +100,8 @@ body {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #353535}
+.dropdown-content a:hover {
+    background-color: #353535}
   
 .dropdown:hover .dropdown-content {
     display: block;
@@ -110,8 +111,20 @@ body {
     background-color: #ba9c7a;
 }
 
+@media (min-width:1024px){
+    .dropdown-content{
+        display: block;
+    }
+    .dropbtn{
+        display: none;
+        
+    }
+}
+
+
 
 /* Bloque CABECERA */
 .bloque_Cabecera{
     padding-left: 300px;
 }
+
