@@ -114,16 +114,12 @@ body {
 @media (min-width:1024px){
     .dropdown-content{
         display: block;
+        
     }
     .dropbtn{
         display: none;
-        
-    }
-}
-@media (min-width:1024px){
-    .dropdown{
-        
-    }
+    }   
+   
 }
 
 
